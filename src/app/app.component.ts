@@ -15,22 +15,22 @@ export class AppComponent  {
 
   slides: Slide[] = [{
     id: 1,
-    image: '/assets/0.png',
+    image: './assets/0.png',
   }, {
     id: 2,
-    image: '/assets/2.png',
+    image: './assets/2.png',
   }, {
     id: 3,
-    image: '/assets/3.png',
+    image: './assets/3.png',
   }, {
     id: 4,
-    image: '/assets/4.png',
+    image: './assets/4.png',
   }, {
     id: 5,
-    image: '/assets/5.png',
+    image: './assets/5.png',
   }, {
     id: 6,
-    image: '/assets/6.png',
+    image: './assets/6.png',
   }, {
     id: 7,
     image: '/assets/7.png',
