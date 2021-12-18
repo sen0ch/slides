@@ -33,16 +33,16 @@ export class AppComponent  {
     image: './assets/6.png',
   }, {
     id: 7,
-    image: '/assets/7.png',
+    image: './assets/7.png',
   }, {
     id: 8,
-    image: '/assets/8.png',
+    image: './assets/8.png',
   }, {
     id: 9,
-    image: '/assets/0.png',
+    image: './assets/9.png',
   }, {
     id: 10,
-    image: '/assets/10.png',
+    image: './assets/10.png',
   }]
 
 }
