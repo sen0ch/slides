@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 50%; background-color: #ddd; padding: 0px } 
+body { margin: 4%; font-family: Roboto, "Helvetica Neue", sans-serif; } 
+
+.content {
+	max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    text-align: left;
+  }
+
+.carousel { 
+    width: 100%;
+    position: relative;
+    overflow: hidden; 
+    outline: 0 
+    } 
+.carousel>button { 
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background-color: #000;
+	width: 50px;
+	height: 50px;
+	} 
+.carousel>button first-of-type { 
+	left: -30px 
+	} 
+.carousel>button last-of-type { 
+	right: 30px 
+	} 
+.carousel-list { 
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	position: relative 
+	} 
+.carousel-slide { 
+	width: 0%;
+	height: 0;
+	display: flex;
+	flex-shrink: 0;
+	position: relative;
+	overflow: visible; 
+	} 
+.carousel-slide hover { 
+	cursor: -webkit-grab;
+	cursor: grab;
+	} 
+.carousel-indicators { 
+	display: flex;
+	position: absolute;
+	bottom: 15px;
+	z-index: 1;
+	left: 350%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	outline: 0;
+	background-color: #fff;
+	width: 225px;
+	height: 25px;
+	padding: 10px;
+	border-radius: 0px;
+	} 
+.carousel-indicators>button {
+	width: 20px;
+	height: 20px;
+	margin: 7.5px;
+	background-color: #000;
+	} 
