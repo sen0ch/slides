@@ -36,36 +36,39 @@ export class AppComponent  {
     image: './assets/home.png',
   }, {
     id: 8,
-    image: './assets/2-1.png',
+    image: './assets/lp.png',
   }, {
     id: 9,
+    image: './assets/2-1.png',
+  },{
+    id: 10,
     image: './assets/2-2.png',
   }, {
-    id: 10,
+    id: 11,
     image: './assets/2-3.png',
   }, {
-    id: 11,
+    id: 12,
     image: './assets/5-2.png',
   }, {
-    id: 12,
+    id: 13,
     image: './assets/5-2b.png',
   }, {
-    id: 13,
+    id: 14,
     image: './assets/2-5.png',
   }, {
-    id: 14,
+    id: 15,
     image: './assets/3-1.png',
   }, {
-    id: 15,
+    id: 16,
     image: './assets/3-2.png',
   }, {
-    id: 16,
+    id: 17,
     image: './assets/3-3.png',
   }, {
-    id: 17,
+    id: 18,
     image: './assets/3-3a.png',
   }, {
-    id: 18,
+    id: 19,
     image: './assets/3-4.png',
   }
 ]
